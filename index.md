@@ -5,9 +5,9 @@
 layout: default
 ---
 
-Apparently I can write markdown here... **bold**, _italic_ and ~~strikethrough~~
+Apparently I can write markdown here... **bold**, _italic_, ~~strikethrough~~, and **_~~everything at once~~_**!!
 
-I can [link to another page](./about/)... probably?
+I can [link to another page](./about/)... probably? Useful to link to a specification...
 
 # H1 headers
 
