@@ -4,3 +4,31 @@
 
 layout: default
 ---
+
+Apparently I can write markdown here... **bold**, _italic_ and ~~strikethrough~~
+
+I can [link to another page](./about/)... probably?
+
+# H1 headers
+
+They're fun
+
+## H2 headers
+
+Are less fun
+
+### H3 headers
+
+They work too
+
+#### H4 even
+
+Or maybe not?
+
+##### H5 headers
+
+They're small
+
+###### H6 headers
+
+Are tiiiiiny
