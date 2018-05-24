@@ -26,9 +26,10 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: minimal
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
+repository: fgrapes-test-organization/fgrapes-test-organization.github.io
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
