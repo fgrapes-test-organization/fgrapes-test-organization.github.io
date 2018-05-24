@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: post
 title: About
+date: 2018-05-24
 permalink: /about/
 ---
 
