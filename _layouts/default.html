@@ -34,7 +34,25 @@
         {% endif %}
       </header>
       <section>
-
+      
+	  <h2>Current documents</h2>
+	  <ul>
+        {% for post in site.categories.release %}
+          <li>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+          </li>
+        {% endfor %}
+      </ul>
+	  
+	  <h2>Archived documents</h2>
+	  <ul>
+        {% for post in site.categories.archived limit:10 %}
+          <li>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+          </li>
+        {% endfor %}
+      </ul>
+	  
       {{ content }}
 
       </section>
